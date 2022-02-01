@@ -8,3 +8,8 @@ helm package <chart-name>
 ```
 helm repo index .
 ```
+
+# Add repository to helm client
+```
+helm repo add thetillhoff https://thetillhoff.github.io/helm-charts
+```
